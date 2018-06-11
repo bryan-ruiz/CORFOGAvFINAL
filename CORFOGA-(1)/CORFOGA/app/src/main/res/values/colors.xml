@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores que se van a utilizar en la aplicación -->
+    <color name="colorPrimary">#228f2e</color>
+    <color name="colorProgressBar">#228F2E</color>
+    <color name="darkGray">#D4D2BE</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colortitle">#111</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="progressColor">#256b09</color>
+    <color name="backgroudColor">#ffffff</color>
+    <color name="backgroudColorOnFarm">#3f78b5</color>
+    <color name="botones">#333399</color>
+    <color name="colorWords">#2E7024</color>
+</resources>

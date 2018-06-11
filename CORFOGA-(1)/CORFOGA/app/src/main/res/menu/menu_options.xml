@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="MainActivity">
+    <item
+        android:id="@+id/exportar"
+        android:icon="@android:drawable/arrow_up_float"
+        android:tint="@android:color/white"
+        android:title="@string/Exportar"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/importar"
+        android:icon="@android:drawable/arrow_down_float"
+        android:tint="@android:color/white"
+        android:title="@string/Importar"
+        app:showAsAction="never"
+        />
+</menu>
+
+
+
+
+

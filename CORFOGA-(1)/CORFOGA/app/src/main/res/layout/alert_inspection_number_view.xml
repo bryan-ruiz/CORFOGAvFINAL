@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Lista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/textTitleInspectionTop"
+            android:layout_marginBottom="@dimen/textTitleInspectionBotton"
+            android:layout_marginLeft="@dimen/textTitleInspectionLeft"
+            android:fontFamily="sans-serif"
+            android:text="@string/bottons"
+            android:textColor="@color/colortitle"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/inspectionOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/colorError"
+                android:text="@string/inspectionOne"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/backgroudColor"
+                android:textSize="@dimen/dimenButton" />
+
+            <Button
+                android:id="@+id/inspectionTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/backgroudColor"
+                android:layout_marginTop="6dp"
+                android:textSize="@dimen/dimenButton"
+                android:text="@string/inspectionTwo"
+                android:background="?attr/colorError"/>
+
+            <Button
+                android:id="@+id/inspectionThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/dimenButton"
+                android:text="@string/inspectionThree"
+                android:textColor="@color/backgroudColor"
+                android:layout_marginTop="6dp"
+                android:background="?attr/colorError"/>
+
+            <Button
+                android:id="@+id/inspectionFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/dimenButton"
+                android:text="@string/inspectionFour"
+                android:textColor="@color/backgroudColor"
+                android:layout_marginTop="6dp"
+                android:background="?attr/colorError"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

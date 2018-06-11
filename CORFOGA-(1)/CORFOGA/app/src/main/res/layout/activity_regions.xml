@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bryan.corfoga.Activity.RegionActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/cerro"
+            android:padding="@dimen/paddingAll"
+            tools:context="com.example.dell.corfoga4.MainActivity">
+            <Button
+                android:id="@+id/chorotega"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:backgroundTint="@color/darkGray"
+                android:drawableLeft="@drawable/chorotega75px"
+                android:drawablePadding="@dimen/drawablePadding"
+                android:minHeight="140dp"
+                android:text="Región Chorotega"
+                android:textSize="@dimen/textSizeRegions"
+                android:textColor="@color/colorWords" />
+            <Button
+                android:text="Región Huetar Norte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/chorotega"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/marginTopRegions"
+                android:id="@+id/huetarNorte"
+                android:minHeight="140dp"
+                android:drawableLeft="@drawable/huetar_norte75px"
+                android:drawablePadding="@dimen/drawablePadding"
+                android:textSize="@dimen/textSizeRegions"
+                android:textColor="@color/colorWords"
+                android:backgroundTint="@color/darkGray" />
+            <Button
+                android:text="Región Brunca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/huetarNorte"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/marginTopRegions"
+                android:id="@+id/brunca"
+                android:minHeight="140dip"
+                android:drawableLeft="@drawable/brunca75px"
+                android:drawablePadding="@dimen/drawablePadding"
+                android:textSize="@dimen/textSizeRegions"
+                android:textColor="@color/colorWords"
+                android:backgroundTint="@color/darkGray" />
+            <Button
+                android:text="Región Huetar Atlántica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/brunca"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/marginTopRegions"
+                android:id="@+id/huetarAtlantica"
+                android:minHeight="140dip"
+                android:drawableLeft="@drawable/huetar_atlantica75px"
+                android:drawablePadding="@dimen/drawablePadding"
+                android:textSize="@dimen/textSizeRegions"
+                android:textColor="@color/colorWords"
+                android:backgroundTint="@color/darkGray" />
+            <Button
+                android:text=" Region Central"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/huetarAtlantica"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/marginTopRegions"
+                android:id="@+id/central"
+                android:minHeight="140dip"
+                android:drawableLeft="@drawable/central75px"
+                android:drawablePadding="@dimen/drawablePadding"
+                android:textSize="@dimen/textSizeRegions"
+                android:textColor="@color/colorWords"
+                android:backgroundTint="@color/darkGray" />
+            <Button
+                android:text="Region Pacífico Central"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/central"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/marginTopRegions"
+                android:id="@+id/pacificoCentral"
+                android:minHeight="140dip"
+                android:drawableLeft="@drawable/pacifico_central75px"
+                android:drawablePadding="@dimen/drawablePadding"
+                android:textSize="@dimen/textSizeRegions"
+                android:textColor="@color/colorWords"
+                android:backgroundTint="@color/darkGray" />
+
+            <Button
+                android:id="@+id/todas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:backgroundTint="@color/darkGray"
+                android:drawableLeft="@drawable/todas75px"
+                android:drawablePadding="@dimen/drawablePadding"
+                android:minHeight="140dip"
+                android:text="Todo el País"
+                android:textColor="@color/colorWords"
+                android:textSize="@dimen/textSizeRegions" />
+        </RelativeLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/progressBarLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="208dp"
+        android:weightSum="1"
+        android:background="#635d5d"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.37"
+            android:gravity="center"
+            android:text="@string/loading"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

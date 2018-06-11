@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dimenciones para las vistas -->
+    <dimen name="marginTop">19dp</dimen>
+    <dimen name="paddingAll">16dp</dimen>
+    <dimen name="marginLeftInspection">16dp</dimen>
+    <dimen name="marginRightInspection">16dp</dimen>
+    <dimen name="drawablePadding">8dp</dimen>
+    <dimen name="marginTopRegions">20dp</dimen>
+    <dimen name="textSizeInspection">18sp</dimen>
+    <dimen name="textSizeRegions">20dp</dimen>
+    <dimen name="dimenButton">21sp</dimen>
+    <dimen name="textTitleInspectionBotton">25dp</dimen>
+    <dimen name="textTitleInspectionLeft">5dp</dimen>
+    <dimen name="textTitleInspectionTop">10dp</dimen>
+
+</resources>
