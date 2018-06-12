@@ -43,6 +43,20 @@ public class Animal {
         this.inspectionsList = new ArrayList<Inspection>();
     }
 
+    public Animal(Animal a) {
+        this.id = a.getId();
+        this.asocebuFarmID = a.getAsocebuFarmID();
+        this.register = a.getRegister();
+        this.code = a.getCode();
+        this.sex = a.getSex();
+        this.birthdate = a.getBirthdate();
+        this.fatherRegister = a.getFatherRegister();
+        this.fatherCode = a.getFatherCode();
+        this.motherRegister = a.getMotherRegister();
+        this.motherCode = a.getMotherCode();
+        this.inspectionsList = new ArrayList<Inspection>();
+    }
+
     public String getState() {
         return state;
     }

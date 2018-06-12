@@ -19,6 +19,14 @@
             android:textStyle="bold"
             android:layout_marginLeft="20dp"
             android:textColor="@color/colorWords"/>
+        <EditText
+            android:id="@+id/buscar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Buscar"
+            android:inputType="number"
+            android:text="" />
 
         <ListView
             android:id="@+id/listFarms"

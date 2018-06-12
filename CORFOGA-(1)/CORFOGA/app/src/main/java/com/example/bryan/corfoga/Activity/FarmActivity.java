@@ -122,7 +122,7 @@ public class FarmActivity extends AppCompatActivity {
 
     private void llenar() {
         int x = 0;
-        listItems = Global.getInstance().getFarmsList();
+        listItems = cloneList(Global.getInstance().getFarmsList());
     }
 
     @Override
